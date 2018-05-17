@@ -8,7 +8,7 @@ import org.springframework.test.context.ContextConfiguration;
 import com.sagax.config.AppConfig;
 
 @RunWith(Suite.class)
-@SuiteClasses({ ClimbingStairsServiceTest.class })
+@SuiteClasses({ ClimbingStairsServiceTest.class, ClimbingStairsServiceTest.class })
 @ContextConfiguration(classes = { AppConfig.class })
 public class SagaxControllerIntegrationTest {
 
